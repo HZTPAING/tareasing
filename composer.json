@@ -1,0 +1,36 @@
+{
+    "name": "hztpaing/tareasing",
+    "description": "Librería en PHP para trabajar con tareas",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "authors": [
+        {
+            "name": "Serhii Production",
+            "email": "hztpaserg@gmail.com",
+            "homepage": "https://github.com/HZTPAING/tareasing",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "tareasing",
+        "librería",
+        "php",
+        "tareas"
+    ],
+    "homepage": "https://github.com/HZTPAING/tareasing",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.6",
+        "hztpaserg/saludo": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tareasing\\Model\\": "model/",
+            "Tareasing\\Src\\": "src/"
+        }
+    }
+}

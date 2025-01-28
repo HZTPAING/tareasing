@@ -1,0 +1,31 @@
+/* Estilo para que el texto largo se ajuste a múltiples líneas */
+.message-res {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+/* Estilo personalizado para el contenedor de la alerta */
+.alert-mensaje-status {
+    padding: 20px; /* Relleno interno de 20px alrededor del contenido */
+    margin: 10px;  /* Márgenes alrededor de la alerta */
+    border-radius: 8px; /* Opcional: Redondear las esquinas del borde */
+    position: relative; /* Para que el botón de cierre se posicione relativo a este contenedor */
+}
+
+/* Ajustar el color del botón para los mensajes de éxito (alert-success) */
+.alert-success .btn-close:hover {
+    background-color: #28a745; /* Color un poco más oscuro que el fondo verde */
+    opacity: 0.8; /* Ajustar opacidad para hacer el color más sutil */
+}
+
+/* Ajustar el color del botón para los mensajes de error (alert-danger) */
+.alert-danger .btn-close:hover {
+    background-color: #dc3545; /* Color un poco más oscuro que el fondo rojo */
+    opacity: 0.8; /* Ajustar opacidad para hacer el color más sutil */
+}
+
+/* Opcional: Cambiar el color del botón al pasar el mouse */
+.alert-success .btn-close:hover,
+.alert-danger .btn-close:hover {
+    opacity: 1; /* Aumentar la opacidad al hacer hover */
+}

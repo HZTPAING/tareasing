@@ -1,0 +1,22 @@
+/* Reset básico para asegurar que los márgenes y rellenos no interfieran */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: #333;
+}
+
+/* Estilo general del spam */
+spam {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
